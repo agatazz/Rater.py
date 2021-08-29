@@ -11,8 +11,7 @@ API
   3.  Ratings  => model,view, serializer, url
   
 ### To do:
-
-      - [ ] Implementing functions for analyzing the reviews
-      - [ ] Personalyze the admin panel
+- [ ] [BE] Implementing functions for analyzing the reviews
+- [ ] [BE] Personalyze the admin panel
 - [ ] Frontend
 - [ ] Documentation
