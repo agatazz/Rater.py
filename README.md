@@ -1,17 +1,14 @@
-# FeedbackAnylyzer
+## Tech stack
+Python3
+Django v.3.2.6
+Django-rest v.3.12.4
+## Setup
+venv\scripts\activate
+py manage.py runserver
+## Description
+A simple API allowing to collect ratings for services from users. Frontend repo: https://github.com/agatazz/Rater-frontend
 
-### In Progress
-- [ ] Backend:
-API
-  1. User
-      - [x] Authentication
-      - [x] Logic for login in/out
-      - [x] Basic permissions
-  2.  Services => model,view, serializer, url
-  3.  Ratings  => model,view, serializer, url
-  
-### To do:
-- [ ] [BE] Implementing functions for analyzing the reviews
-- [ ] [BE] Personalyze the admin panel
-- [ ] Frontend
-- [ ] Documentation
+### Funcionalities:
+Crud for services
+Possibility to rate service
+Authorization for users
